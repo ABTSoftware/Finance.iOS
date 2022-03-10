@@ -1,0 +1,1410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8701AE8826C5822700D0AC66 /* FinanceZoomPanModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8701AE8726C5822700D0AC66 /* FinanceZoomPanModifier.swift */; };
+		87050C8926245735006DE575 /* OhlcvDataSourceId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87050C8826245735006DE575 /* OhlcvDataSourceId.swift */; };
+		87050C8F26245FEB006DE575 /* DataSourceEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87050C8E26245FEB006DE575 /* DataSourceEditableProperty.swift */; };
+		87050C9626246782006DE575 /* FinanceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87050C9526246782006DE575 /* FinanceString.swift */; };
+		87060437254C95480050174F /* StringEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87060436254C95480050174F /* StringEditableProperty.swift */; };
+		8706043B254C95550050174F /* FontStyleEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8706043A254C95550050174F /* FontStyleEditableProperty.swift */; };
+		870A3CA32796B9ED00374AC3 /* FinanceChartStateChangedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A3CA22796B9ED00374AC3 /* FinanceChartStateChangedEvent.swift */; };
+		870A6B2A254B328600BDC526 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A6B29254B328600BDC526 /* Notification+Name.swift */; };
+		870A6B30254B63BE00BDC526 /* CoordinatesEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A6B2F254B63BE00BDC526 /* CoordinatesEditableProperty.swift */; };
+		870C36212625B1A800848E3E /* AxisId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C36202625B1A800848E3E /* AxisId.swift */; };
+		870C36262625B2CD00848E3E /* PaneId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C36252625B2CD00848E3E /* PaneId.swift */; };
+		870C36292625B55000848E3E /* FinanceAxisCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C36282625B55000848E3E /* FinanceAxisCollection.swift */; };
+		870C362C2625B57E00848E3E /* FinanceYAxisBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C362B2625B57E00848E3E /* FinanceYAxisBase.swift */; };
+		870C362F2625C20F00848E3E /* IFinanceAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C362E2625C20F00848E3E /* IFinanceAxis.swift */; };
+		870C36322625C22700848E3E /* IPanePlaceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C36312625C22700848E3E /* IPanePlaceable.swift */; };
+		870C36362625C49300848E3E /* IEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C36352625C49300848E3E /* IEditableProperty.swift */; };
+		870C363A2625CECB00848E3E /* FinanceNumericYAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C36392625CECB00848E3E /* FinanceNumericYAxis.swift */; };
+		870C98D926F323F4008628D7 /* PropertyId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C98D826F323F4008628D7 /* PropertyId.swift */; };
+		870C98DB26F32C15008628D7 /* IStudyEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C98DA26F32C15008628D7 /* IStudyEventListener.swift */; };
+		870C98DD26F32C41008628D7 /* IStudyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C98DC26F32C41008628D7 /* IStudyEvent.swift */; };
+		870C98DF26F33167008628D7 /* StudyChangedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C98DE26F33167008628D7 /* StudyChangedEvent.swift */; };
+		870E52D626B2A1C600B51F4D /* SciChartLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870E52D526B2A1C600B51F4D /* SciChartLogoView.swift */; };
+		870ED7412546EE2B007005D1 /* FloatEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870ED7402546EE2B007005D1 /* FloatEditableProperty.swift */; };
+		870ED7472546F942007005D1 /* IntEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870ED7462546F942007005D1 /* IntEditableProperty.swift */; };
+		870ED74A2546F9F5007005D1 /* PenStyleEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870ED7492546F9F5007005D1 /* PenStyleEditableProperty.swift */; };
+		871A852C26579B4500F028B6 /* IResizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A852B26579B4500F028B6 /* IResizingView.swift */; };
+		871DC7F527860AA900497C38 /* FinanceChartAnimateRangeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871DC7F427860AA900497C38 /* FinanceChartAnimateRangeEvent.swift */; };
+		8721C28F26B95DC8002FF8E4 /* NEUROPOL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8721C28E26B95DC8002FF8E4 /* NEUROPOL.ttf */; };
+		8721C29126B96CCD002FF8E4 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8721C29026B96CCD002FF8E4 /* UIFont+Extensions.swift */; };
+		8721C29326B96E60002FF8E4 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8721C29226B96E60002FF8E4 /* Bundle+Extensions.swift */; };
+		8723A175265C03DC00D49C04 /* NSMutableAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723A174265C03DC00D49C04 /* NSMutableAttributedString+Extensions.swift */; };
+		8723A180265D90C000D49C04 /* StackViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723A17F265D90C000D49C04 /* StackViewContainer.swift */; };
+		8729B4672757E58100C6F7DA /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8729B4652757E58100C6F7DA /* PriceFormatter.swift */; };
+		8729B4682757E58100C6F7DA /* PercentFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8729B4662757E58100C6F7DA /* PercentFormatter.swift */; };
+		872B7E5F25F14616003F1076 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B7E5E25F14616003F1076 /* Double+Extension.swift */; };
+		873364FB276F5F7700455A86 /* FinanceChartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873364FA276F5F7700455A86 /* FinanceChartState.swift */; };
+		873617A326C63541009100F2 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873617A226C63541009100F2 /* Array+Extensions.swift */; };
+		873E322C2721D25200C2FD43 /* OpacityEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E322B2721D25200C2FD43 /* OpacityEditableProperty.swift */; };
+		873E32322721E07400C2FD43 /* FastSlowPeriodEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E32312721E07400C2FD43 /* FastSlowPeriodEditableProperty.swift */; };
+		873E32342721E0D900C2FD43 /* PeriodEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E32332721E0D900C2FD43 /* PeriodEditableProperty.swift */; };
+		873E32362721E0FD00C2FD43 /* PositiveDoubleEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E32352721E0FD00C2FD43 /* PositiveDoubleEditableProperty.swift */; };
+		873E32382721E3C600C2FD43 /* DataPointWidthEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873E32372721E3C600C2FD43 /* DataPointWidthEditableProperty.swift */; };
+		8749858D264D50E900971592 /* EnumEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8749858C264D50E900971592 /* EnumEditableProperty.swift */; };
+		8749858F264D50FC00971592 /* TA_MAType_EditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8749858E264D50FC00971592 /* TA_MAType_EditableProperty.swift */; };
+		8756633625E4DA120068DEEC /* SciChart_Dark_Theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8756633525E4DA120068DEEC /* SciChart_Dark_Theme.plist */; };
+		8758666F2786E9470036EF4E /* FinanceChartWidthChangedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758666E2786E9470036EF4E /* FinanceChartWidthChangedEvent.swift */; };
+		875916A426C6849A00469FF3 /* FinanceChartReloadChartEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875916A326C6849A00469FF3 /* FinanceChartReloadChartEvent.swift */; };
+		875BE73C263C47730070E475 /* FinancePinchZoomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BE73B263C47730070E475 /* FinancePinchZoomModifier.swift */; };
+		876F5B2B27859BAC00FDD387 /* SciChart in Frameworks */ = {isa = PBXBuildFile; productRef = 876F5B2A27859BAC00FDD387 /* SciChart */; };
+		87777A3B25DD5F50004628A5 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87777A3A25DD5F50004628A5 /* GradientButton.swift */; };
+		87777A4E25DD6EEF004628A5 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87777A4D25DD6EEF004628A5 /* UIColor+Extensions.swift */; };
+		87777A5F25DD769C004628A5 /* IGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87777A5E25DD769C004628A5 /* IGradientView.swift */; };
+		8779D258254859790026C369 /* DoubleEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779D257254859790026C369 /* DoubleEditableProperty.swift */; };
+		877F427A2784F53100EEAC80 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877F42792784F53100EEAC80 /* UIView+Extensions.swift */; };
+		878A648325DBB37E00DB314E /* InstrumentPriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A648225DBB37E00DB314E /* InstrumentPriceLabel.swift */; };
+		879A557D2791BF9C00DAE3AA /* PropertyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879A557C2791BF9C00DAE3AA /* PropertyState.swift */; };
+		879A557F2791C44800DAE3AA /* IEditablePropertyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879A557E2791C44800DAE3AA /* IEditablePropertyContainer.swift */; };
+		87A013F2277B11E2009E3B30 /* ChartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A013F1277B11E2009E3B30 /* ChartButton.swift */; };
+		87A013F9277B26E6009E3B30 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A013F8277B26E6009E3B30 /* UIStackView+Extensions.swift */; };
+		87A013FB277B2773009E3B30 /* XRangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A013FA277B2773009E3B30 /* XRangeButton.swift */; };
+		87A6A34F2657E9BB00BF2AB1 /* ExpandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A6A34E2657E9BB00BF2AB1 /* ExpandButton.swift */; };
+		87A6A3512657E9E600BF2AB1 /* MainChartContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A6A3502657E9E600BF2AB1 /* MainChartContainer.swift */; };
+		87A6A3532657EA0800BF2AB1 /* SecondaryChartContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A6A3522657EA0800BF2AB1 /* SecondaryChartContainer.swift */; };
+		87A6A3552657F1E200BF2AB1 /* FinanceYAxisDragModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A6A3542657F1E200BF2AB1 /* FinanceYAxisDragModifier.swift */; };
+		87A6A35726580C0E00BF2AB1 /* YAutoRangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A6A35626580C0E00BF2AB1 /* YAutoRangeButton.swift */; };
+		87A6A35926580CBC00BF2AB1 /* MainPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A6A35826580CBC00BF2AB1 /* MainPane.swift */; };
+		87A6A35B265817F100BF2AB1 /* IChartContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A6A35A265817F100BF2AB1 /* IChartContainer.swift */; };
+		87A74AAF2716F49F0053BAFA /* FinanceDateXAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A74AAE2716F49F0053BAFA /* FinanceDateXAxis.swift */; };
+		87A962F6268DF3340015F31C /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A962F5268DF3340015F31C /* Atomic.swift */; };
+		87ABF478277C5F540097E28F /* StudyTitlePressedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABF477277C5F540097E28F /* StudyTitlePressedEvent.swift */; };
+		87B6C38F268348B200686DF6 /* IFinanceChartEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6C38E268348B200686DF6 /* IFinanceChartEvent.swift */; };
+		87B6C391268348C900686DF6 /* IFinanceChartEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6C390268348C900686DF6 /* IFinanceChartEventListener.swift */; };
+		87B9F88E263BE020006E35F1 /* SwiftCCTALib in Frameworks */ = {isa = PBXBuildFile; productRef = 87B9F88D263BE020006E35F1 /* SwiftCCTALib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		87BF7217264440AE00CB7998 /* HistogramFinanceSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BF7216264440AE00CB7998 /* HistogramFinanceSeries.swift */; };
+		87C7A6092628637F00084481 /* EditablePropertyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C7A6082628637F00084481 /* EditablePropertyState.swift */; };
+		87C7A632262872B600084481 /* IPanePropertyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C7A631262872B600084481 /* IPanePropertyContainer.swift */; };
+		87CDA9152614D87200F7C0B5 /* AttachableBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDA9142614D87200F7C0B5 /* AttachableBase.swift */; };
+		87CDA91C2614DACE00F7C0B5 /* DataSourceChangedArgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDA91B2614DACE00F7C0B5 /* DataSourceChangedArgs.swift */; };
+		87CDA9202614E6EF00F7C0B5 /* DataSourceId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDA91F2614E6EF00F7C0B5 /* DataSourceId.swift */; };
+		87CDA9232614E85300F7C0B5 /* StudyId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDA9222614E85300F7C0B5 /* StudyId.swift */; };
+		87CDA9262614E8C200F7C0B5 /* DataManagerAttachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDA9252614E8C200F7C0B5 /* DataManagerAttachable.swift */; };
+		87CDA9292614EFEB00F7C0B5 /* DependableBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CDA9282614EFEB00F7C0B5 /* DependableBase.swift */; };
+		87CF90DF254FCF9D00278BB9 /* ArrowHeadEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF90DE254FCF9D00278BB9 /* ArrowHeadEditableProperty.swift */; };
+		87D22DCC275A45CB00AE3BB6 /* InstrumentPriceFormatChangedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D22DCB275A45CB00AE3BB6 /* InstrumentPriceFormatChangedEvent.swift */; };
+		87D3040D261324D9005BA6AA /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3040C261324D9005BA6AA /* Property.swift */; };
+		87D3044426134546005BA6AA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3044326134546005BA6AA /* GradientView.swift */; };
+		87D30452261348D9005BA6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D30451261348D9005BA6AA /* Assets.xcassets */; };
+		87D3045526134934005BA6AA /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3045426134934005BA6AA /* ImageProvider.swift */; };
+		87DDBCC625F961B9005A1FCC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDBCC525F961B9005A1FCC /* Constants.swift */; };
+		87E1DE0C2642DB5800BF3E2C /* CrosshairModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE0B2642DB5800BF3E2C /* CrosshairModifier.swift */; };
+		87E1DE0E2642DB8400BF3E2C /* CursorCrossHairDrawableBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE0D2642DB8400BF3E2C /* CursorCrossHairDrawableBehaviour.swift */; };
+		87E1DE102642DB8D00BF3E2C /* ShiftCrosshairHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE0F2642DB8D00BF3E2C /* ShiftCrosshairHelper.swift */; };
+		87E1DE122642DBA100BF3E2C /* TooltipBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE112642DBA000BF3E2C /* TooltipBehaviour.swift */; };
+		87E1DE152642FB2300BF3E2C /* IGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE142642FB2300BF3E2C /* IGestureView.swift */; };
+		87E1DE172642FB5C00BF3E2C /* AxisTooltipBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE162642FB5C00BF3E2C /* AxisTooltipBehaviour.swift */; };
+		87E1DE192642FC4300BF3E2C /* YAxisSeriesInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE182642FC4300BF3E2C /* YAxisSeriesInfoProvider.swift */; };
+		87E1DE1C2642FD1500BF3E2C /* FinanceAxisTooltipBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE1B2642FD1500BF3E2C /* FinanceAxisTooltipBase.swift */; };
+		87E1DE222643002B00BF3E2C /* YAxisTooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1DE212643002B00BF3E2C /* YAxisTooltip.swift */; };
+		87E228E72636D0A20041A978 /* IStudyTooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E228E62636D0A20041A978 /* IStudyTooltip.swift */; };
+		87E228EB2636D0E50041A978 /* LinearStudyTooltipBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E228EA2636D0E50041A978 /* LinearStudyTooltipBase.swift */; };
+		87E228EE2636DBF60041A978 /* StudyTooltipBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E228ED2636DBF60041A978 /* StudyTooltipBase.swift */; };
+		87E228F82636E4670041A978 /* DefaultPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E228F72636E4670041A978 /* DefaultPane.swift */; };
+		87E228FB2636E4830041A978 /* IPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E228FA2636E4830041A978 /* IPane.swift */; };
+		87E229012636E5650041A978 /* StudyLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E229002636E5650041A978 /* StudyLegend.swift */; };
+		87E2290D2636F0700041A978 /* IPaneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2290C2636F0700041A978 /* IPaneFactory.swift */; };
+		87EFEFB827902C890023F212 /* IndicatorStudyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFB727902C890023F212 /* IndicatorStudyState.swift */; };
+		87EFEFBA27902CC30023F212 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFB927902CC30023F212 /* Indicator.swift */; };
+		87EFEFBD27902D1B0023F212 /* StudyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFBC27902D1B0023F212 /* StudyFactory.swift */; };
+		87EFEFBE27902D1B0023F212 /* IStudyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFBB27902D1B0023F212 /* IStudyFactory.swift */; };
+		87EFEFC027902DBD0023F212 /* PriceSeriesStudyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFBF27902DBD0023F212 /* PriceSeriesStudyState.swift */; };
+		87EFEFC227902E050023F212 /* SARStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFB127902AD60023F212 /* SARStudy.swift */; };
+		87EFEFC327902E050023F212 /* ATRStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFA827902AD60023F212 /* ATRStudy.swift */; };
+		87EFEFC427902E050023F212 /* OBVStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFAE27902AD60023F212 /* OBVStudy.swift */; };
+		87EFEFC527902E050023F212 /* HorizontalLineSeriesValueMarkerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFB327902AD60023F212 /* HorizontalLineSeriesValueMarkerFactory.swift */; };
+		87EFEFC627902E050023F212 /* BBandsStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFA927902AD60023F212 /* BBandsStudy.swift */; };
+		87EFEFC727902E050023F212 /* StochStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFB527902AD60023F212 /* StochStudy.swift */; };
+		87EFEFC827902E050023F212 /* CCIStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFAA27902AD60023F212 /* CCIStudy.swift */; };
+		87EFEFC927902E050023F212 /* EMAStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFAB27902AD60023F212 /* EMAStudy.swift */; };
+		87EFEFCA27902E050023F212 /* STDDevStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFB427902AD60023F212 /* STDDevStudy.swift */; };
+		87EFEFCB27902E050023F212 /* RSIStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFB027902AD60023F212 /* RSIStudy.swift */; };
+		87EFEFCC27902E050023F212 /* MacdStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFAD27902AD60023F212 /* MacdStudy.swift */; };
+		87EFEFCD27902E050023F212 /* ADXStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFA727902AD60023F212 /* ADXStudy.swift */; };
+		87EFEFCE27902E050023F212 /* PriceSeriesStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFAF27902AD60023F212 /* PriceSeriesStudy.swift */; };
+		87EFEFCF27902E050023F212 /* SMAStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFB227902AD60023F212 /* SMAStudy.swift */; };
+		87EFEFD027902E050023F212 /* HT_TrendlineStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFAC27902AD60023F212 /* HT_TrendlineStudy.swift */; };
+		87EFEFD227902EB00023F212 /* LegendInstrumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFD127902EB00023F212 /* LegendInstrumentModel.swift */; };
+		87EFEFD327903A3D0023F212 /* LegendInstrumentModelChangedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFEFA527902AD60023F212 /* LegendInstrumentModelChangedEvent.swift */; };
+		87F7DBD825BF4E56008B6916 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7DBD725BF4E56008B6916 /* UIImage+Extensions.swift */; };
+		9C76174A2643E8EE0006B6EC /* EditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7617492643E8EE0006B6EC /* EditableProperty.swift */; };
+		9C76174D2643ECA30006B6EC /* MirrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76174C2643ECA30006B6EC /* MirrorExtensions.swift */; };
+		DC2403BE25362C7500C531B4 /* AnnotationDragListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2403BD25362C7500C531B4 /* AnnotationDragListener.swift */; };
+		DC61685F25309B5000462F49 /* AnnotationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61685E25309B5000462F49 /* AnnotationType.swift */; };
+		DC9C04B0253599490071A756 /* AnnotationActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04AF253599490071A756 /* AnnotationActionType.swift */; };
+		DC9C04B32535995F0071A756 /* EditAnnotationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04B22535995F0071A756 /* EditAnnotationAction.swift */; };
+		DC9C04B6253599800071A756 /* IFinanceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04B5253599800071A756 /* IFinanceAnnotation.swift */; };
+		DC9C04B92535998E0071A756 /* FinanceAnnotationBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04B82535998E0071A756 /* FinanceAnnotationBase.swift */; };
+		DC9C04BC253599A60071A756 /* HorizontalLineAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04BB253599A60071A756 /* HorizontalLineAnnotation.swift */; };
+		DC9C04BF253599B40071A756 /* LineArrowAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04BE253599B40071A756 /* LineArrowAnnotation.swift */; };
+		DC9C04C2253599C30071A756 /* BoxAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04C1253599C30071A756 /* BoxAnnotation.swift */; };
+		DC9C04C5253599D30071A756 /* TextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04C4253599D30071A756 /* TextAnnotation.swift */; };
+		DC9C04C8253599FF0071A756 /* IEditAnnotationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04C7253599FF0071A756 /* IEditAnnotationAction.swift */; };
+		DC9C04D42535D2C00071A756 /* AnnotationCoordinateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C04D32535D2C00071A756 /* AnnotationCoordinateItem.swift */; };
+		DCA411AC2542D4DC002E4A3D /* ArrowHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA411AB2542D4DC002E4A3D /* ArrowHead.swift */; };
+		DCA411CC254315EF002E4A3D /* AnnotationCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA411CB254315EF002E4A3D /* AnnotationCoordinates.swift */; };
+		DCA9A66925398D4D00C0E096 /* SciFinanceChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9A66825398D4C00C0E096 /* SciFinanceChart.swift */; };
+		DCA9A6742539A02000C0E096 /* SciAnnotationCreationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9A6732539A02000C0E096 /* SciAnnotationCreationModifier.swift */; };
+		DCA9A6752539A02000C0E096 /* SciTapDownGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9A6722539A02000C0E096 /* SciTapDownGesture.swift */; };
+		DCA9A6782539A5EA00C0E096 /* AnnotationCreationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9A6772539A5EA00C0E096 /* AnnotationCreationFactory.swift */; };
+		DCBAADEA252F3728006DB3BD /* IDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBAADE9252F3728006DB3BD /* IDataManager.swift */; };
+		DCE207E12541BFC100102C6D /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE207E02541BFC100102C6D /* ViewType.swift */; };
+		DCE207E52541C02000102C6D /* BrushStyleEditableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE207E42541C02000102C6D /* BrushStyleEditableProperty.swift */; };
+		DCE207E82541C04300102C6D /* EditablePropertyBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE207E72541C04300102C6D /* EditablePropertyBase.swift */; };
+		DCE207EB2541C08700102C6D /* EditableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE207EA2541C08700102C6D /* EditableItem.swift */; };
+		DCFF9424252E0AB4006712C3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF93F8252E0AB4006712C3 /* DataManager.swift */; };
+		DCFF9426252E0AB4006712C3 /* IStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF93FB252E0AB4006712C3 /* IStudy.swift */; };
+		DCFF9429252E0AB4006712C3 /* StudyBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF93FE252E0AB4006712C3 /* StudyBase.swift */; };
+		DCFF942A252E0AB4006712C3 /* CandleStudyBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF93FF252E0AB4006712C3 /* CandleStudyBase.swift */; };
+		DCFF942C252E0AB4006712C3 /* SciChartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9402252E0AB4006712C3 /* SciChartExtensions.swift */; };
+		DCFF942D252E0AB4006712C3 /* CandlestickFinanceSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9404252E0AB4006712C3 /* CandlestickFinanceSeries.swift */; };
+		DCFF942E252E0AB4006712C3 /* BandFinanceSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9405252E0AB4006712C3 /* BandFinanceSeries.swift */; };
+		DCFF942F252E0AB4006712C3 /* LineFinanceSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9406252E0AB4006712C3 /* LineFinanceSeries.swift */; };
+		DCFF9430252E0AB4006712C3 /* FinanceSeriesPaletteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9407252E0AB4006712C3 /* FinanceSeriesPaletteProvider.swift */; };
+		DCFF9432252E0AB4006712C3 /* XyyFinanceSeriesBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9409252E0AB4006712C3 /* XyyFinanceSeriesBase.swift */; };
+		DCFF9433252E0AB4006712C3 /* ColumnFinanceSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF940A252E0AB4006712C3 /* ColumnFinanceSeries.swift */; };
+		DCFF9434252E0AB4006712C3 /* OhlcFinanceSeriesBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF940B252E0AB4006712C3 /* OhlcFinanceSeriesBase.swift */; };
+		DCFF9435252E0AB4006712C3 /* IFinanceSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF940C252E0AB4006712C3 /* IFinanceSeries.swift */; };
+		DCFF9436252E0AB4006712C3 /* FinanceSeriesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF940D252E0AB4006712C3 /* FinanceSeriesCollection.swift */; };
+		DCFF9437252E0AB4006712C3 /* XyFinanceSeriesBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF940E252E0AB4006712C3 /* XyFinanceSeriesBase.swift */; };
+		DCFF9438252E0AB4006712C3 /* FinanceSeriesBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF940F252E0AB4006712C3 /* FinanceSeriesBase.swift */; };
+		DCFF9439252E0AB4006712C3 /* IVolumeValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9411252E0AB4006712C3 /* IVolumeValues.swift */; };
+		DCFF943B252E0AB4006712C3 /* IOhlcvValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9413252E0AB4006712C3 /* IOhlcvValues.swift */; };
+		DCFF943C252E0AB4006712C3 /* ICandleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9414252E0AB4006712C3 /* ICandleDataProvider.swift */; };
+		DCFF943D252E0AB4006712C3 /* IOhlcValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9415252E0AB4006712C3 /* IOhlcValues.swift */; };
+		DCFF943E252E0AB4006712C3 /* DefaultCandleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9416252E0AB4006712C3 /* DefaultCandleDataProvider.swift */; };
+		DCFF943F252E0AB4006712C3 /* ITickValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9417252E0AB4006712C3 /* ITickValues.swift */; };
+		DCFF9440252E0AB4006712C3 /* IIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF9419252E0AB4006712C3 /* IIndicator.swift */; };
+		DCFF9441252E0AB4006712C3 /* IndicatorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF941A252E0AB4006712C3 /* IndicatorCollection.swift */; };
+		DCFF9442252E0AB4006712C3 /* IndicatorBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF941B252E0AB4006712C3 /* IndicatorBase.swift */; };
+		DCFF9443252E0AB4006712C3 /* TALibIndicatorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF941C252E0AB4006712C3 /* TALibIndicatorProvider.swift */; };
+		DCFF9444252E0AB4006712C3 /* IOhlcIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF941D252E0AB4006712C3 /* IOhlcIndicator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8701AE8726C5822700D0AC66 /* FinanceZoomPanModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceZoomPanModifier.swift; sourceTree = "<group>"; };
+		87050C8826245735006DE575 /* OhlcvDataSourceId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhlcvDataSourceId.swift; sourceTree = "<group>"; };
+		87050C8E26245FEB006DE575 /* DataSourceEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceEditableProperty.swift; sourceTree = "<group>"; };
+		87050C9526246782006DE575 /* FinanceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceString.swift; sourceTree = "<group>"; };
+		87060436254C95480050174F /* StringEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEditableProperty.swift; sourceTree = "<group>"; };
+		8706043A254C95550050174F /* FontStyleEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyleEditableProperty.swift; sourceTree = "<group>"; };
+		870A3CA22796B9ED00374AC3 /* FinanceChartStateChangedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceChartStateChangedEvent.swift; sourceTree = "<group>"; };
+		870A6B29254B328600BDC526 /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+		870A6B2F254B63BE00BDC526 /* CoordinatesEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesEditableProperty.swift; sourceTree = "<group>"; };
+		870C36202625B1A800848E3E /* AxisId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisId.swift; sourceTree = "<group>"; };
+		870C36252625B2CD00848E3E /* PaneId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaneId.swift; sourceTree = "<group>"; };
+		870C36282625B55000848E3E /* FinanceAxisCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAxisCollection.swift; sourceTree = "<group>"; };
+		870C362B2625B57E00848E3E /* FinanceYAxisBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceYAxisBase.swift; sourceTree = "<group>"; };
+		870C362E2625C20F00848E3E /* IFinanceAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFinanceAxis.swift; sourceTree = "<group>"; };
+		870C36312625C22700848E3E /* IPanePlaceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPanePlaceable.swift; sourceTree = "<group>"; };
+		870C36352625C49300848E3E /* IEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEditableProperty.swift; sourceTree = "<group>"; };
+		870C36392625CECB00848E3E /* FinanceNumericYAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceNumericYAxis.swift; sourceTree = "<group>"; };
+		870C98D826F323F4008628D7 /* PropertyId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyId.swift; sourceTree = "<group>"; };
+		870C98DA26F32C15008628D7 /* IStudyEventListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IStudyEventListener.swift; sourceTree = "<group>"; };
+		870C98DC26F32C41008628D7 /* IStudyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IStudyEvent.swift; sourceTree = "<group>"; };
+		870C98DE26F33167008628D7 /* StudyChangedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyChangedEvent.swift; sourceTree = "<group>"; };
+		870E52D526B2A1C600B51F4D /* SciChartLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciChartLogoView.swift; sourceTree = "<group>"; };
+		870ED7402546EE2B007005D1 /* FloatEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatEditableProperty.swift; sourceTree = "<group>"; };
+		870ED7462546F942007005D1 /* IntEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntEditableProperty.swift; sourceTree = "<group>"; };
+		870ED7492546F9F5007005D1 /* PenStyleEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenStyleEditableProperty.swift; sourceTree = "<group>"; };
+		871A852B26579B4500F028B6 /* IResizingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IResizingView.swift; sourceTree = "<group>"; };
+		871DC7F427860AA900497C38 /* FinanceChartAnimateRangeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceChartAnimateRangeEvent.swift; sourceTree = "<group>"; };
+		8721C28E26B95DC8002FF8E4 /* NEUROPOL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NEUROPOL.ttf; sourceTree = "<group>"; };
+		8721C29026B96CCD002FF8E4 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		8721C29226B96E60002FF8E4 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		8723A174265C03DC00D49C04 /* NSMutableAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		8723A17F265D90C000D49C04 /* StackViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewContainer.swift; sourceTree = "<group>"; };
+		8729B4652757E58100C6F7DA /* PriceFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceFormatter.swift; sourceTree = "<group>"; };
+		8729B4662757E58100C6F7DA /* PercentFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentFormatter.swift; sourceTree = "<group>"; };
+		872B7E5E25F14616003F1076 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		873364FA276F5F7700455A86 /* FinanceChartState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceChartState.swift; sourceTree = "<group>"; };
+		873617A226C63541009100F2 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		87364A2D272C4945009A11F6 /* SciChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SciChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		873E322B2721D25200C2FD43 /* OpacityEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityEditableProperty.swift; sourceTree = "<group>"; };
+		873E32312721E07400C2FD43 /* FastSlowPeriodEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastSlowPeriodEditableProperty.swift; sourceTree = "<group>"; };
+		873E32332721E0D900C2FD43 /* PeriodEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodEditableProperty.swift; sourceTree = "<group>"; };
+		873E32352721E0FD00C2FD43 /* PositiveDoubleEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveDoubleEditableProperty.swift; sourceTree = "<group>"; };
+		873E32372721E3C600C2FD43 /* DataPointWidthEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPointWidthEditableProperty.swift; sourceTree = "<group>"; };
+		8749858C264D50E900971592 /* EnumEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumEditableProperty.swift; sourceTree = "<group>"; };
+		8749858E264D50FC00971592 /* TA_MAType_EditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TA_MAType_EditableProperty.swift; sourceTree = "<group>"; };
+		8756633525E4DA120068DEEC /* SciChart_Dark_Theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SciChart_Dark_Theme.plist; sourceTree = "<group>"; };
+		8758666E2786E9470036EF4E /* FinanceChartWidthChangedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceChartWidthChangedEvent.swift; sourceTree = "<group>"; };
+		875916A326C6849A00469FF3 /* FinanceChartReloadChartEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FinanceChartReloadChartEvent.swift; path = Finance/Core/Event/FinanceChartReloadChartEvent.swift; sourceTree = SOURCE_ROOT; };
+		875BE73B263C47730070E475 /* FinancePinchZoomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancePinchZoomModifier.swift; sourceTree = "<group>"; };
+		87777A3A25DD5F50004628A5 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		87777A4D25DD6EEF004628A5 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		87777A5E25DD769C004628A5 /* IGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGradientView.swift; sourceTree = "<group>"; };
+		8779D257254859790026C369 /* DoubleEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleEditableProperty.swift; sourceTree = "<group>"; };
+		877F42792784F53100EEAC80 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		878A648225DBB37E00DB314E /* InstrumentPriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentPriceLabel.swift; sourceTree = "<group>"; };
+		879A557C2791BF9C00DAE3AA /* PropertyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyState.swift; sourceTree = "<group>"; };
+		879A557E2791C44800DAE3AA /* IEditablePropertyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEditablePropertyContainer.swift; sourceTree = "<group>"; };
+		87A013F1277B11E2009E3B30 /* ChartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartButton.swift; sourceTree = "<group>"; };
+		87A013F8277B26E6009E3B30 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		87A013FA277B2773009E3B30 /* XRangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRangeButton.swift; sourceTree = "<group>"; };
+		87A6A34E2657E9BB00BF2AB1 /* ExpandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandButton.swift; sourceTree = "<group>"; };
+		87A6A3502657E9E600BF2AB1 /* MainChartContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChartContainer.swift; sourceTree = "<group>"; };
+		87A6A3522657EA0800BF2AB1 /* SecondaryChartContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryChartContainer.swift; sourceTree = "<group>"; };
+		87A6A3542657F1E200BF2AB1 /* FinanceYAxisDragModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceYAxisDragModifier.swift; sourceTree = "<group>"; };
+		87A6A35626580C0E00BF2AB1 /* YAutoRangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAutoRangeButton.swift; sourceTree = "<group>"; };
+		87A6A35826580CBC00BF2AB1 /* MainPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPane.swift; sourceTree = "<group>"; };
+		87A6A35A265817F100BF2AB1 /* IChartContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IChartContainer.swift; sourceTree = "<group>"; };
+		87A74AAE2716F49F0053BAFA /* FinanceDateXAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDateXAxis.swift; sourceTree = "<group>"; };
+		87A962F5268DF3340015F31C /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		87ABF477277C5F540097E28F /* StudyTitlePressedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTitlePressedEvent.swift; sourceTree = "<group>"; };
+		87B6C38E268348B200686DF6 /* IFinanceChartEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFinanceChartEvent.swift; sourceTree = "<group>"; };
+		87B6C390268348C900686DF6 /* IFinanceChartEventListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFinanceChartEventListener.swift; sourceTree = "<group>"; };
+		87BF7216264440AE00CB7998 /* HistogramFinanceSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramFinanceSeries.swift; sourceTree = "<group>"; };
+		87C7A6082628637F00084481 /* EditablePropertyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditablePropertyState.swift; sourceTree = "<group>"; };
+		87C7A631262872B600084481 /* IPanePropertyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPanePropertyContainer.swift; sourceTree = "<group>"; };
+		87CDA9142614D87200F7C0B5 /* AttachableBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachableBase.swift; sourceTree = "<group>"; };
+		87CDA91B2614DACE00F7C0B5 /* DataSourceChangedArgs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceChangedArgs.swift; sourceTree = "<group>"; };
+		87CDA91F2614E6EF00F7C0B5 /* DataSourceId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceId.swift; sourceTree = "<group>"; };
+		87CDA9222614E85300F7C0B5 /* StudyId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyId.swift; sourceTree = "<group>"; };
+		87CDA9252614E8C200F7C0B5 /* DataManagerAttachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerAttachable.swift; sourceTree = "<group>"; };
+		87CDA9282614EFEB00F7C0B5 /* DependableBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependableBase.swift; sourceTree = "<group>"; };
+		87CF90DE254FCF9D00278BB9 /* ArrowHeadEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowHeadEditableProperty.swift; sourceTree = "<group>"; };
+		87D22DCB275A45CB00AE3BB6 /* InstrumentPriceFormatChangedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentPriceFormatChangedEvent.swift; sourceTree = "<group>"; };
+		87D3040C261324D9005BA6AA /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		87D3044326134546005BA6AA /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		87D30451261348D9005BA6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87D3045426134934005BA6AA /* ImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		87DDBCC525F961B9005A1FCC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		87E1DE0B2642DB5800BF3E2C /* CrosshairModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrosshairModifier.swift; sourceTree = "<group>"; };
+		87E1DE0D2642DB8400BF3E2C /* CursorCrossHairDrawableBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CursorCrossHairDrawableBehaviour.swift; sourceTree = "<group>"; };
+		87E1DE0F2642DB8D00BF3E2C /* ShiftCrosshairHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftCrosshairHelper.swift; sourceTree = "<group>"; };
+		87E1DE112642DBA000BF3E2C /* TooltipBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TooltipBehaviour.swift; sourceTree = "<group>"; };
+		87E1DE142642FB2300BF3E2C /* IGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGestureView.swift; sourceTree = "<group>"; };
+		87E1DE162642FB5C00BF3E2C /* AxisTooltipBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisTooltipBehaviour.swift; sourceTree = "<group>"; };
+		87E1DE182642FC4300BF3E2C /* YAxisSeriesInfoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAxisSeriesInfoProvider.swift; sourceTree = "<group>"; };
+		87E1DE1B2642FD1500BF3E2C /* FinanceAxisTooltipBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAxisTooltipBase.swift; sourceTree = "<group>"; };
+		87E1DE212643002B00BF3E2C /* YAxisTooltip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAxisTooltip.swift; sourceTree = "<group>"; };
+		87E228E62636D0A20041A978 /* IStudyTooltip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IStudyTooltip.swift; path = Finance/Study/Tooltips/IStudyTooltip.swift; sourceTree = SOURCE_ROOT; };
+		87E228EA2636D0E50041A978 /* LinearStudyTooltipBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinearStudyTooltipBase.swift; path = Finance/Study/Tooltips/LinearStudyTooltipBase.swift; sourceTree = SOURCE_ROOT; };
+		87E228ED2636DBF60041A978 /* StudyTooltipBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudyTooltipBase.swift; path = Finance/Study/Tooltips/StudyTooltipBase.swift; sourceTree = SOURCE_ROOT; };
+		87E228F72636E4670041A978 /* DefaultPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPane.swift; sourceTree = "<group>"; };
+		87E228FA2636E4830041A978 /* IPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPane.swift; sourceTree = "<group>"; };
+		87E229002636E5650041A978 /* StudyLegend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyLegend.swift; sourceTree = "<group>"; };
+		87E2290C2636F0700041A978 /* IPaneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPaneFactory.swift; sourceTree = "<group>"; };
+		87EFEFA527902AD60023F212 /* LegendInstrumentModelChangedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendInstrumentModelChangedEvent.swift; sourceTree = "<group>"; };
+		87EFEFA727902AD60023F212 /* ADXStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADXStudy.swift; sourceTree = "<group>"; };
+		87EFEFA827902AD60023F212 /* ATRStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATRStudy.swift; sourceTree = "<group>"; };
+		87EFEFA927902AD60023F212 /* BBandsStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBandsStudy.swift; sourceTree = "<group>"; };
+		87EFEFAA27902AD60023F212 /* CCIStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCIStudy.swift; sourceTree = "<group>"; };
+		87EFEFAB27902AD60023F212 /* EMAStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAStudy.swift; sourceTree = "<group>"; };
+		87EFEFAC27902AD60023F212 /* HT_TrendlineStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HT_TrendlineStudy.swift; sourceTree = "<group>"; };
+		87EFEFAD27902AD60023F212 /* MacdStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacdStudy.swift; sourceTree = "<group>"; };
+		87EFEFAE27902AD60023F212 /* OBVStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBVStudy.swift; sourceTree = "<group>"; };
+		87EFEFAF27902AD60023F212 /* PriceSeriesStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceSeriesStudy.swift; sourceTree = "<group>"; };
+		87EFEFB027902AD60023F212 /* RSIStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSIStudy.swift; sourceTree = "<group>"; };
+		87EFEFB127902AD60023F212 /* SARStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SARStudy.swift; sourceTree = "<group>"; };
+		87EFEFB227902AD60023F212 /* SMAStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAStudy.swift; sourceTree = "<group>"; };
+		87EFEFB327902AD60023F212 /* HorizontalLineSeriesValueMarkerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalLineSeriesValueMarkerFactory.swift; sourceTree = "<group>"; };
+		87EFEFB427902AD60023F212 /* STDDevStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STDDevStudy.swift; sourceTree = "<group>"; };
+		87EFEFB527902AD60023F212 /* StochStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StochStudy.swift; sourceTree = "<group>"; };
+		87EFEFB727902C890023F212 /* IndicatorStudyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorStudyState.swift; sourceTree = "<group>"; };
+		87EFEFB927902CC30023F212 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		87EFEFBB27902D1B0023F212 /* IStudyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IStudyFactory.swift; sourceTree = "<group>"; };
+		87EFEFBC27902D1B0023F212 /* StudyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyFactory.swift; sourceTree = "<group>"; };
+		87EFEFBF27902DBD0023F212 /* PriceSeriesStudyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceSeriesStudyState.swift; sourceTree = "<group>"; };
+		87EFEFD127902EB00023F212 /* LegendInstrumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendInstrumentModel.swift; sourceTree = "<group>"; };
+		87F7DBD725BF4E56008B6916 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		9C7617492643E8EE0006B6EC /* EditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableProperty.swift; sourceTree = "<group>"; };
+		9C76174C2643ECA30006B6EC /* MirrorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorExtensions.swift; sourceTree = "<group>"; };
+		DC2403BD25362C7500C531B4 /* AnnotationDragListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationDragListener.swift; sourceTree = "<group>"; };
+		DC61685E25309B5000462F49 /* AnnotationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationType.swift; sourceTree = "<group>"; };
+		DC9C04AF253599490071A756 /* AnnotationActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationActionType.swift; sourceTree = "<group>"; };
+		DC9C04B22535995F0071A756 /* EditAnnotationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAnnotationAction.swift; sourceTree = "<group>"; };
+		DC9C04B5253599800071A756 /* IFinanceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFinanceAnnotation.swift; sourceTree = "<group>"; };
+		DC9C04B82535998E0071A756 /* FinanceAnnotationBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAnnotationBase.swift; sourceTree = "<group>"; };
+		DC9C04BB253599A60071A756 /* HorizontalLineAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalLineAnnotation.swift; sourceTree = "<group>"; };
+		DC9C04BE253599B40071A756 /* LineArrowAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineArrowAnnotation.swift; sourceTree = "<group>"; };
+		DC9C04C1253599C30071A756 /* BoxAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxAnnotation.swift; sourceTree = "<group>"; };
+		DC9C04C4253599D30071A756 /* TextAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnnotation.swift; sourceTree = "<group>"; };
+		DC9C04C7253599FF0071A756 /* IEditAnnotationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEditAnnotationAction.swift; sourceTree = "<group>"; };
+		DC9C04D32535D2C00071A756 /* AnnotationCoordinateItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationCoordinateItem.swift; sourceTree = "<group>"; };
+		DCA411AB2542D4DC002E4A3D /* ArrowHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowHead.swift; sourceTree = "<group>"; };
+		DCA411CB254315EF002E4A3D /* AnnotationCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationCoordinates.swift; sourceTree = "<group>"; };
+		DCA9A66825398D4C00C0E096 /* SciFinanceChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciFinanceChart.swift; sourceTree = "<group>"; };
+		DCA9A6722539A02000C0E096 /* SciTapDownGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciTapDownGesture.swift; sourceTree = "<group>"; };
+		DCA9A6732539A02000C0E096 /* SciAnnotationCreationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciAnnotationCreationModifier.swift; sourceTree = "<group>"; };
+		DCA9A6772539A5EA00C0E096 /* AnnotationCreationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationCreationFactory.swift; sourceTree = "<group>"; };
+		DCBAADE9252F3728006DB3BD /* IDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDataManager.swift; sourceTree = "<group>"; };
+		DCE207E02541BFC100102C6D /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		DCE207E42541C02000102C6D /* BrushStyleEditableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushStyleEditableProperty.swift; sourceTree = "<group>"; };
+		DCE207E72541C04300102C6D /* EditablePropertyBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditablePropertyBase.swift; sourceTree = "<group>"; };
+		DCE207EA2541C08700102C6D /* EditableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableItem.swift; sourceTree = "<group>"; };
+		DCFF937C252E099C006712C3 /* Finance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Finance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFF9380252E099C006712C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFF93F8252E0AB4006712C3 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		DCFF93FB252E0AB4006712C3 /* IStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IStudy.swift; sourceTree = "<group>"; };
+		DCFF93FE252E0AB4006712C3 /* StudyBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyBase.swift; sourceTree = "<group>"; };
+		DCFF93FF252E0AB4006712C3 /* CandleStudyBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleStudyBase.swift; sourceTree = "<group>"; };
+		DCFF9402252E0AB4006712C3 /* SciChartExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SciChartExtensions.swift; sourceTree = "<group>"; };
+		DCFF9404252E0AB4006712C3 /* CandlestickFinanceSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandlestickFinanceSeries.swift; sourceTree = "<group>"; };
+		DCFF9405252E0AB4006712C3 /* BandFinanceSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandFinanceSeries.swift; sourceTree = "<group>"; };
+		DCFF9406252E0AB4006712C3 /* LineFinanceSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineFinanceSeries.swift; sourceTree = "<group>"; };
+		DCFF9407252E0AB4006712C3 /* FinanceSeriesPaletteProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceSeriesPaletteProvider.swift; sourceTree = "<group>"; };
+		DCFF9409252E0AB4006712C3 /* XyyFinanceSeriesBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XyyFinanceSeriesBase.swift; sourceTree = "<group>"; };
+		DCFF940A252E0AB4006712C3 /* ColumnFinanceSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnFinanceSeries.swift; sourceTree = "<group>"; };
+		DCFF940B252E0AB4006712C3 /* OhlcFinanceSeriesBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhlcFinanceSeriesBase.swift; sourceTree = "<group>"; };
+		DCFF940C252E0AB4006712C3 /* IFinanceSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFinanceSeries.swift; sourceTree = "<group>"; };
+		DCFF940D252E0AB4006712C3 /* FinanceSeriesCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceSeriesCollection.swift; sourceTree = "<group>"; };
+		DCFF940E252E0AB4006712C3 /* XyFinanceSeriesBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XyFinanceSeriesBase.swift; sourceTree = "<group>"; };
+		DCFF940F252E0AB4006712C3 /* FinanceSeriesBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceSeriesBase.swift; sourceTree = "<group>"; };
+		DCFF9411252E0AB4006712C3 /* IVolumeValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVolumeValues.swift; sourceTree = "<group>"; };
+		DCFF9413252E0AB4006712C3 /* IOhlcvValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOhlcvValues.swift; sourceTree = "<group>"; };
+		DCFF9414252E0AB4006712C3 /* ICandleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICandleDataProvider.swift; sourceTree = "<group>"; };
+		DCFF9415252E0AB4006712C3 /* IOhlcValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOhlcValues.swift; sourceTree = "<group>"; };
+		DCFF9416252E0AB4006712C3 /* DefaultCandleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCandleDataProvider.swift; sourceTree = "<group>"; };
+		DCFF9417252E0AB4006712C3 /* ITickValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITickValues.swift; sourceTree = "<group>"; };
+		DCFF9419252E0AB4006712C3 /* IIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IIndicator.swift; sourceTree = "<group>"; };
+		DCFF941A252E0AB4006712C3 /* IndicatorCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorCollection.swift; sourceTree = "<group>"; };
+		DCFF941B252E0AB4006712C3 /* IndicatorBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorBase.swift; sourceTree = "<group>"; };
+		DCFF941C252E0AB4006712C3 /* TALibIndicatorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TALibIndicatorProvider.swift; sourceTree = "<group>"; };
+		DCFF941D252E0AB4006712C3 /* IOhlcIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOhlcIndicator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFF9379252E099C006712C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B9F88E263BE020006E35F1 /* SwiftCCTALib in Frameworks */,
+				876F5B2B27859BAC00FDD387 /* SciChart in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84851351948FAB65885E5117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87364A2D272C4945009A11F6 /* SciChart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		870C361E2625B18D00848E3E /* Axes */ = {
+			isa = PBXGroup;
+			children = (
+				870C36202625B1A800848E3E /* AxisId.swift */,
+				870C36282625B55000848E3E /* FinanceAxisCollection.swift */,
+				87A74AAE2716F49F0053BAFA /* FinanceDateXAxis.swift */,
+				870C36392625CECB00848E3E /* FinanceNumericYAxis.swift */,
+				870C362B2625B57E00848E3E /* FinanceYAxisBase.swift */,
+				870C362E2625C20F00848E3E /* IFinanceAxis.swift */,
+			);
+			path = Axes;
+			sourceTree = "<group>";
+		};
+		8729B4642757E58100C6F7DA /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				8729B4652757E58100C6F7DA /* PriceFormatter.swift */,
+				8729B4662757E58100C6F7DA /* PercentFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		8756633425E4DA030068DEEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8721C28E26B95DC8002FF8E4 /* NEUROPOL.ttf */,
+				8756633525E4DA120068DEEC /* SciChart_Dark_Theme.plist */,
+				87D3045426134934005BA6AA /* ImageProvider.swift */,
+				87A962F5268DF3340015F31C /* Atomic.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		87A6A34D2657E9A100BF2AB1 /* ContainerViews */ = {
+			isa = PBXGroup;
+			children = (
+				87A6A34E2657E9BB00BF2AB1 /* ExpandButton.swift */,
+				87A013F1277B11E2009E3B30 /* ChartButton.swift */,
+				87A013FA277B2773009E3B30 /* XRangeButton.swift */,
+				87A6A35A265817F100BF2AB1 /* IChartContainer.swift */,
+				87A6A3502657E9E600BF2AB1 /* MainChartContainer.swift */,
+				871A852B26579B4500F028B6 /* IResizingView.swift */,
+				87A6A3522657EA0800BF2AB1 /* SecondaryChartContainer.swift */,
+			);
+			path = ContainerViews;
+			sourceTree = "<group>";
+		};
+		87A6A35C2658183E00BF2AB1 /* FinanceChart */ = {
+			isa = PBXGroup;
+			children = (
+				87D22DCB275A45CB00AE3BB6 /* InstrumentPriceFormatChangedEvent.swift */,
+				DCA9A66825398D4C00C0E096 /* SciFinanceChart.swift */,
+			);
+			path = FinanceChart;
+			sourceTree = "<group>";
+		};
+		87B6C38D2683489F00686DF6 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				871DC7F427860AA900497C38 /* FinanceChartAnimateRangeEvent.swift */,
+				875916A326C6849A00469FF3 /* FinanceChartReloadChartEvent.swift */,
+				870A3CA22796B9ED00374AC3 /* FinanceChartStateChangedEvent.swift */,
+				8758666E2786E9470036EF4E /* FinanceChartWidthChangedEvent.swift */,
+				87B6C38E268348B200686DF6 /* IFinanceChartEvent.swift */,
+				87B6C390268348C900686DF6 /* IFinanceChartEventListener.swift */,
+				870C98DC26F32C41008628D7 /* IStudyEvent.swift */,
+				870C98DA26F32C15008628D7 /* IStudyEventListener.swift */,
+				870C98DE26F33167008628D7 /* StudyChangedEvent.swift */,
+				87ABF477277C5F540097E28F /* StudyTitlePressedEvent.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		87C7A6072628636F00084481 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				87C7A6082628637F00084481 /* EditablePropertyState.swift */,
+				873364FA276F5F7700455A86 /* FinanceChartState.swift */,
+				879A557E2791C44800DAE3AA /* IEditablePropertyContainer.swift */,
+				87EFEFB727902C890023F212 /* IndicatorStudyState.swift */,
+				87C7A631262872B600084481 /* IPanePropertyContainer.swift */,
+				87EFEFBF27902DBD0023F212 /* PriceSeriesStudyState.swift */,
+				879A557C2791BF9C00DAE3AA /* PropertyState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		87CDA9132614D86000F7C0B5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				87B6C38D2683489F00686DF6 /* Event */,
+				87CDA9142614D87200F7C0B5 /* AttachableBase.swift */,
+				DCFF93F8252E0AB4006712C3 /* DataManager.swift */,
+				87CDA9252614E8C200F7C0B5 /* DataManagerAttachable.swift */,
+				87CDA91B2614DACE00F7C0B5 /* DataSourceChangedArgs.swift */,
+				87CDA91F2614E6EF00F7C0B5 /* DataSourceId.swift */,
+				87CDA9282614EFEB00F7C0B5 /* DependableBase.swift */,
+				DCBAADE9252F3728006DB3BD /* IDataManager.swift */,
+				87050C8826245735006DE575 /* OhlcvDataSourceId.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		87E1DE1A2642FD0B00BF3E2C /* Tooltips */ = {
+			isa = PBXGroup;
+			children = (
+				87E1DE1B2642FD1500BF3E2C /* FinanceAxisTooltipBase.swift */,
+				87E1DE212643002B00BF3E2C /* YAxisTooltip.swift */,
+			);
+			path = Tooltips;
+			sourceTree = "<group>";
+		};
+		87E228E52636D0920041A978 /* Tooltips */ = {
+			isa = PBXGroup;
+			children = (
+				87E228E62636D0A20041A978 /* IStudyTooltip.swift */,
+				87EFEFD127902EB00023F212 /* LegendInstrumentModel.swift */,
+				87E228EA2636D0E50041A978 /* LinearStudyTooltipBase.swift */,
+				87E228ED2636DBF60041A978 /* StudyTooltipBase.swift */,
+			);
+			path = Tooltips;
+			sourceTree = "<group>";
+		};
+		87E228FD2636E53E0041A978 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				87E228FE2636E5450041A978 /* Crosshair */,
+				87E228FF2636E54F0041A978 /* Legend */,
+				87E1DE142642FB2300BF3E2C /* IGestureView.swift */,
+				875BE73B263C47730070E475 /* FinancePinchZoomModifier.swift */,
+				8701AE8726C5822700D0AC66 /* FinanceZoomPanModifier.swift */,
+				87A6A3542657F1E200BF2AB1 /* FinanceYAxisDragModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		87E228FE2636E5450041A978 /* Crosshair */ = {
+			isa = PBXGroup;
+			children = (
+				87E1DE1A2642FD0B00BF3E2C /* Tooltips */,
+				87E1DE182642FC4300BF3E2C /* YAxisSeriesInfoProvider.swift */,
+				87E1DE0B2642DB5800BF3E2C /* CrosshairModifier.swift */,
+				87E1DE0D2642DB8400BF3E2C /* CursorCrossHairDrawableBehaviour.swift */,
+				87E1DE0F2642DB8D00BF3E2C /* ShiftCrosshairHelper.swift */,
+				87E1DE112642DBA000BF3E2C /* TooltipBehaviour.swift */,
+				87E1DE162642FB5C00BF3E2C /* AxisTooltipBehaviour.swift */,
+			);
+			path = Crosshair;
+			sourceTree = "<group>";
+		};
+		87E228FF2636E54F0041A978 /* Legend */ = {
+			isa = PBXGroup;
+			children = (
+				87E229002636E5650041A978 /* StudyLegend.swift */,
+				8723A17F265D90C000D49C04 /* StackViewContainer.swift */,
+			);
+			path = Legend;
+			sourceTree = "<group>";
+		};
+		87EFEFA627902AD60023F212 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				87EFEFA527902AD60023F212 /* LegendInstrumentModelChangedEvent.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		87EFEFB627902AD60023F212 /* Studies */ = {
+			isa = PBXGroup;
+			children = (
+				87EFEFA727902AD60023F212 /* ADXStudy.swift */,
+				87EFEFA827902AD60023F212 /* ATRStudy.swift */,
+				87EFEFA927902AD60023F212 /* BBandsStudy.swift */,
+				87EFEFAA27902AD60023F212 /* CCIStudy.swift */,
+				87EFEFAB27902AD60023F212 /* EMAStudy.swift */,
+				87EFEFAC27902AD60023F212 /* HT_TrendlineStudy.swift */,
+				87EFEFAD27902AD60023F212 /* MacdStudy.swift */,
+				87EFEFAE27902AD60023F212 /* OBVStudy.swift */,
+				87EFEFAF27902AD60023F212 /* PriceSeriesStudy.swift */,
+				87EFEFB027902AD60023F212 /* RSIStudy.swift */,
+				87EFEFB127902AD60023F212 /* SARStudy.swift */,
+				87EFEFB227902AD60023F212 /* SMAStudy.swift */,
+				87EFEFB327902AD60023F212 /* HorizontalLineSeriesValueMarkerFactory.swift */,
+				87EFEFB427902AD60023F212 /* STDDevStudy.swift */,
+				87EFEFB527902AD60023F212 /* StochStudy.swift */,
+			);
+			path = Studies;
+			sourceTree = "<group>";
+		};
+		87F7DBD525BF4E39008B6916 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				87F7DBD725BF4E56008B6916 /* UIImage+Extensions.swift */,
+				87777A4D25DD6EEF004628A5 /* UIColor+Extensions.swift */,
+				872B7E5E25F14616003F1076 /* Double+Extension.swift */,
+				8723A174265C03DC00D49C04 /* NSMutableAttributedString+Extensions.swift */,
+				8721C29026B96CCD002FF8E4 /* UIFont+Extensions.swift */,
+				8721C29226B96E60002FF8E4 /* Bundle+Extensions.swift */,
+				873617A226C63541009100F2 /* Array+Extensions.swift */,
+				87A013F8277B26E6009E3B30 /* UIStackView+Extensions.swift */,
+				877F42792784F53100EEAC80 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C7617482643E8D10006B6EC /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				9C7617492643E8EE0006B6EC /* EditableProperty.swift */,
+				9C76174C2643ECA30006B6EC /* MirrorExtensions.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		DC2403B82536296500C531B4 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C04C1253599C30071A756 /* BoxAnnotation.swift */,
+				DC9C04BB253599A60071A756 /* HorizontalLineAnnotation.swift */,
+				DC9C04BE253599B40071A756 /* LineArrowAnnotation.swift */,
+				DC9C04C4253599D30071A756 /* TextAnnotation.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		DC61685D25309B4000462F49 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				DC2403B82536296500C531B4 /* Types */,
+				DC9C04AF253599490071A756 /* AnnotationActionType.swift */,
+				DC9C04D32535D2C00071A756 /* AnnotationCoordinateItem.swift */,
+				DCA411CB254315EF002E4A3D /* AnnotationCoordinates.swift */,
+				DCA9A6772539A5EA00C0E096 /* AnnotationCreationFactory.swift */,
+				DC2403BD25362C7500C531B4 /* AnnotationDragListener.swift */,
+				DC61685E25309B5000462F49 /* AnnotationType.swift */,
+				DCA411AB2542D4DC002E4A3D /* ArrowHead.swift */,
+				DC9C04B22535995F0071A756 /* EditAnnotationAction.swift */,
+				DC9C04B82535998E0071A756 /* FinanceAnnotationBase.swift */,
+				DC9C04C7253599FF0071A756 /* IEditAnnotationAction.swift */,
+				DC9C04B5253599800071A756 /* IFinanceAnnotation.swift */,
+				DCA9A6732539A02000C0E096 /* SciAnnotationCreationModifier.swift */,
+				DCA9A6722539A02000C0E096 /* SciTapDownGesture.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		DCE207E32541C00900102C6D /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				87CF90DE254FCF9D00278BB9 /* ArrowHeadEditableProperty.swift */,
+				DCE207E42541C02000102C6D /* BrushStyleEditableProperty.swift */,
+				870A6B2F254B63BE00BDC526 /* CoordinatesEditableProperty.swift */,
+				873E32372721E3C600C2FD43 /* DataPointWidthEditableProperty.swift */,
+				87050C8E26245FEB006DE575 /* DataSourceEditableProperty.swift */,
+				8779D257254859790026C369 /* DoubleEditableProperty.swift */,
+				DCE207EA2541C08700102C6D /* EditableItem.swift */,
+				DCE207E72541C04300102C6D /* EditablePropertyBase.swift */,
+				8749858C264D50E900971592 /* EnumEditableProperty.swift */,
+				873E32312721E07400C2FD43 /* FastSlowPeriodEditableProperty.swift */,
+				870ED7402546EE2B007005D1 /* FloatEditableProperty.swift */,
+				8706043A254C95550050174F /* FontStyleEditableProperty.swift */,
+				870C36352625C49300848E3E /* IEditableProperty.swift */,
+				870ED7462546F942007005D1 /* IntEditableProperty.swift */,
+				873E322B2721D25200C2FD43 /* OpacityEditableProperty.swift */,
+				870ED7492546F9F5007005D1 /* PenStyleEditableProperty.swift */,
+				873E32332721E0D900C2FD43 /* PeriodEditableProperty.swift */,
+				873E32352721E0FD00C2FD43 /* PositiveDoubleEditableProperty.swift */,
+				87D3040C261324D9005BA6AA /* Property.swift */,
+				870C98D826F323F4008628D7 /* PropertyId.swift */,
+				87060436254C95480050174F /* StringEditableProperty.swift */,
+				8749858E264D50FC00971592 /* TA_MAType_EditableProperty.swift */,
+				DCE207E02541BFC100102C6D /* ViewType.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		DCFF9372252E099C006712C3 = {
+			isa = PBXGroup;
+			children = (
+				DCFF937E252E099C006712C3 /* Finance */,
+				DCFF937D252E099C006712C3 /* Products */,
+				84851351948FAB65885E5117 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFF937D252E099C006712C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF937C252E099C006712C3 /* Finance.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFF937E252E099C006712C3 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				DC61685D25309B4000462F49 /* Annotations */,
+				87CDA9132614D86000F7C0B5 /* Core */,
+				DCFF9410252E0AB4006712C3 /* Data */,
+				9C7617482643E8D10006B6EC /* Edit */,
+				87F7DBD525BF4E39008B6916 /* Extensions */,
+				87A6A35C2658183E00BF2AB1 /* FinanceChart */,
+				DCFF9418252E0AB4006712C3 /* Indicators */,
+				DCFF93F0252E0AB4006712C3 /* Pane */,
+				DCE207E32541C00900102C6D /* Properties */,
+				8756633425E4DA030068DEEC /* Resources */,
+				DCFF9403252E0AB4006712C3 /* Series */,
+				87C7A6072628636F00084481 /* State */,
+				DCFF93FA252E0AB4006712C3 /* Study */,
+				DCFF9400252E0AB4006712C3 /* Utils */,
+				87D30451261348D9005BA6AA /* Assets.xcassets */,
+				87DDBCC525F961B9005A1FCC /* Constants.swift */,
+				87050C9526246782006DE575 /* FinanceString.swift */,
+				87777A3A25DD5F50004628A5 /* GradientButton.swift */,
+				87D3044326134546005BA6AA /* GradientView.swift */,
+				87777A5E25DD769C004628A5 /* IGradientView.swift */,
+				DCFF9380252E099C006712C3 /* Info.plist */,
+				878A648225DBB37E00DB314E /* InstrumentPriceLabel.swift */,
+				870A6B29254B328600BDC526 /* Notification+Name.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		DCFF93F0252E0AB4006712C3 /* Pane */ = {
+			isa = PBXGroup;
+			children = (
+				870C361E2625B18D00848E3E /* Axes */,
+				87A6A34D2657E9A100BF2AB1 /* ContainerViews */,
+				87E228FD2636E53E0041A978 /* Modifiers */,
+				87A6A35626580C0E00BF2AB1 /* YAutoRangeButton.swift */,
+				87E228F72636E4670041A978 /* DefaultPane.swift */,
+				87E228FA2636E4830041A978 /* IPane.swift */,
+				87E2290C2636F0700041A978 /* IPaneFactory.swift */,
+				870C36312625C22700848E3E /* IPanePlaceable.swift */,
+				87A6A35826580CBC00BF2AB1 /* MainPane.swift */,
+				870C36252625B2CD00848E3E /* PaneId.swift */,
+				870E52D526B2A1C600B51F4D /* SciChartLogoView.swift */,
+			);
+			path = Pane;
+			sourceTree = "<group>";
+		};
+		DCFF93FA252E0AB4006712C3 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				87EFEFA627902AD60023F212 /* Events */,
+				87EFEFB627902AD60023F212 /* Studies */,
+				87E228E52636D0920041A978 /* Tooltips */,
+				DCFF93FF252E0AB4006712C3 /* CandleStudyBase.swift */,
+				DCFF93FB252E0AB4006712C3 /* IStudy.swift */,
+				87EFEFBB27902D1B0023F212 /* IStudyFactory.swift */,
+				DCFF93FE252E0AB4006712C3 /* StudyBase.swift */,
+				87EFEFBC27902D1B0023F212 /* StudyFactory.swift */,
+				87CDA9222614E85300F7C0B5 /* StudyId.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		DCFF9400252E0AB4006712C3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8729B4642757E58100C6F7DA /* Formatters */,
+				DCFF9402252E0AB4006712C3 /* SciChartExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DCFF9403252E0AB4006712C3 /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF9405252E0AB4006712C3 /* BandFinanceSeries.swift */,
+				DCFF9404252E0AB4006712C3 /* CandlestickFinanceSeries.swift */,
+				DCFF940A252E0AB4006712C3 /* ColumnFinanceSeries.swift */,
+				DCFF940F252E0AB4006712C3 /* FinanceSeriesBase.swift */,
+				DCFF940D252E0AB4006712C3 /* FinanceSeriesCollection.swift */,
+				DCFF9407252E0AB4006712C3 /* FinanceSeriesPaletteProvider.swift */,
+				87BF7216264440AE00CB7998 /* HistogramFinanceSeries.swift */,
+				DCFF940C252E0AB4006712C3 /* IFinanceSeries.swift */,
+				DCFF9406252E0AB4006712C3 /* LineFinanceSeries.swift */,
+				DCFF940B252E0AB4006712C3 /* OhlcFinanceSeriesBase.swift */,
+				DCFF940E252E0AB4006712C3 /* XyFinanceSeriesBase.swift */,
+				DCFF9409252E0AB4006712C3 /* XyyFinanceSeriesBase.swift */,
+			);
+			path = Series;
+			sourceTree = "<group>";
+		};
+		DCFF9410252E0AB4006712C3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF9416252E0AB4006712C3 /* DefaultCandleDataProvider.swift */,
+				DCFF9414252E0AB4006712C3 /* ICandleDataProvider.swift */,
+				DCFF9415252E0AB4006712C3 /* IOhlcValues.swift */,
+				DCFF9413252E0AB4006712C3 /* IOhlcvValues.swift */,
+				DCFF9417252E0AB4006712C3 /* ITickValues.swift */,
+				DCFF9411252E0AB4006712C3 /* IVolumeValues.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DCFF9418252E0AB4006712C3 /* Indicators */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF9419252E0AB4006712C3 /* IIndicator.swift */,
+				DCFF941B252E0AB4006712C3 /* IndicatorBase.swift */,
+				87EFEFB927902CC30023F212 /* Indicator.swift */,
+				DCFF941A252E0AB4006712C3 /* IndicatorCollection.swift */,
+				DCFF941D252E0AB4006712C3 /* IOhlcIndicator.swift */,
+				DCFF941C252E0AB4006712C3 /* TALibIndicatorProvider.swift */,
+			);
+			path = Indicators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DCFF9377252E099C006712C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DCFF937B252E099C006712C3 /* Finance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFF9384252E099C006712C3 /* Build configuration list for PBXNativeTarget "Finance" */;
+			buildPhases = (
+				DCFF9377252E099C006712C3 /* Headers */,
+				DCFF9378252E099C006712C3 /* Sources */,
+				DCFF9379252E099C006712C3 /* Frameworks */,
+				DCFF937A252E099C006712C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finance;
+			packageProductDependencies = (
+				87B9F88D263BE020006E35F1 /* SwiftCCTALib */,
+				876F5B2A27859BAC00FDD387 /* SciChart */,
+			);
+			productName = Finance;
+			productReference = DCFF937C252E099C006712C3 /* Finance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFF9373252E099C006712C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DCFF937B252E099C006712C3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = DCFF9376252E099C006712C3 /* Build configuration list for PBXProject "Finance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFF9372252E099C006712C3;
+			packageReferences = (
+				87B9F88C263BE020006E35F1 /* XCRemoteSwiftPackageReference "CCTALib" */,
+				8778929527396964006289A2 /* XCRemoteSwiftPackageReference "SciChart-SP" */,
+			);
+			productRefGroup = DCFF937D252E099C006712C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFF937B252E099C006712C3 /* Finance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFF937A252E099C006712C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8721C28F26B95DC8002FF8E4 /* NEUROPOL.ttf in Resources */,
+				87D30452261348D9005BA6AA /* Assets.xcassets in Resources */,
+				8756633625E4DA120068DEEC /* SciChart_Dark_Theme.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFF9378252E099C006712C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870C363A2625CECB00848E3E /* FinanceNumericYAxis.swift in Sources */,
+				870C36322625C22700848E3E /* IPanePlaceable.swift in Sources */,
+				DC9C04C8253599FF0071A756 /* IEditAnnotationAction.swift in Sources */,
+				DC9C04B32535995F0071A756 /* EditAnnotationAction.swift in Sources */,
+				873E32322721E07400C2FD43 /* FastSlowPeriodEditableProperty.swift in Sources */,
+				87A962F6268DF3340015F31C /* Atomic.swift in Sources */,
+				DCFF942C252E0AB4006712C3 /* SciChartExtensions.swift in Sources */,
+				87CDA9152614D87200F7C0B5 /* AttachableBase.swift in Sources */,
+				87050C8926245735006DE575 /* OhlcvDataSourceId.swift in Sources */,
+				DCE207E82541C04300102C6D /* EditablePropertyBase.swift in Sources */,
+				870C98D926F323F4008628D7 /* PropertyId.swift in Sources */,
+				87D3040D261324D9005BA6AA /* Property.swift in Sources */,
+				87EFEFCC27902E050023F212 /* MacdStudy.swift in Sources */,
+				87EFEFD327903A3D0023F212 /* LegendInstrumentModelChangedEvent.swift in Sources */,
+				DCE207EB2541C08700102C6D /* EditableItem.swift in Sources */,
+				87050C8F26245FEB006DE575 /* DataSourceEditableProperty.swift in Sources */,
+				87CDA9202614E6EF00F7C0B5 /* DataSourceId.swift in Sources */,
+				DC9C04BF253599B40071A756 /* LineArrowAnnotation.swift in Sources */,
+				DCFF9441252E0AB4006712C3 /* IndicatorCollection.swift in Sources */,
+				870C36262625B2CD00848E3E /* PaneId.swift in Sources */,
+				DCFF9434252E0AB4006712C3 /* OhlcFinanceSeriesBase.swift in Sources */,
+				DCFF9443252E0AB4006712C3 /* TALibIndicatorProvider.swift in Sources */,
+				870ED7412546EE2B007005D1 /* FloatEditableProperty.swift in Sources */,
+				8723A175265C03DC00D49C04 /* NSMutableAttributedString+Extensions.swift in Sources */,
+				DCFF942A252E0AB4006712C3 /* CandleStudyBase.swift in Sources */,
+				870C98DF26F33167008628D7 /* StudyChangedEvent.swift in Sources */,
+				870C362F2625C20F00848E3E /* IFinanceAxis.swift in Sources */,
+				87B6C391268348C900686DF6 /* IFinanceChartEventListener.swift in Sources */,
+				8749858D264D50E900971592 /* EnumEditableProperty.swift in Sources */,
+				87EFEFC627902E050023F212 /* BBandsStudy.swift in Sources */,
+				87E1DE0E2642DB8400BF3E2C /* CursorCrossHairDrawableBehaviour.swift in Sources */,
+				8706043B254C95550050174F /* FontStyleEditableProperty.swift in Sources */,
+				87CDA9292614EFEB00F7C0B5 /* DependableBase.swift in Sources */,
+				87A6A3512657E9E600BF2AB1 /* MainChartContainer.swift in Sources */,
+				DCFF9439252E0AB4006712C3 /* IVolumeValues.swift in Sources */,
+				DCFF943F252E0AB4006712C3 /* ITickValues.swift in Sources */,
+				DCFF943B252E0AB4006712C3 /* IOhlcvValues.swift in Sources */,
+				87A6A3532657EA0800BF2AB1 /* SecondaryChartContainer.swift in Sources */,
+				870A6B2A254B328600BDC526 /* Notification+Name.swift in Sources */,
+				DCE207E12541BFC100102C6D /* ViewType.swift in Sources */,
+				87E1DE192642FC4300BF3E2C /* YAxisSeriesInfoProvider.swift in Sources */,
+				DCFF9433252E0AB4006712C3 /* ColumnFinanceSeries.swift in Sources */,
+				DCFF9426252E0AB4006712C3 /* IStudy.swift in Sources */,
+				87C7A6092628637F00084481 /* EditablePropertyState.swift in Sources */,
+				8723A180265D90C000D49C04 /* StackViewContainer.swift in Sources */,
+				DCA9A6782539A5EA00C0E096 /* AnnotationCreationFactory.swift in Sources */,
+				87D3044426134546005BA6AA /* GradientView.swift in Sources */,
+				DCBAADEA252F3728006DB3BD /* IDataManager.swift in Sources */,
+				87EFEFC827902E050023F212 /* CCIStudy.swift in Sources */,
+				87E228FB2636E4830041A978 /* IPane.swift in Sources */,
+				87EFEFCA27902E050023F212 /* STDDevStudy.swift in Sources */,
+				873617A326C63541009100F2 /* Array+Extensions.swift in Sources */,
+				87EFEFC927902E050023F212 /* EMAStudy.swift in Sources */,
+				9C76174D2643ECA30006B6EC /* MirrorExtensions.swift in Sources */,
+				873E322C2721D25200C2FD43 /* OpacityEditableProperty.swift in Sources */,
+				87BF7217264440AE00CB7998 /* HistogramFinanceSeries.swift in Sources */,
+				87E1DE222643002B00BF3E2C /* YAxisTooltip.swift in Sources */,
+				87CF90DF254FCF9D00278BB9 /* ArrowHeadEditableProperty.swift in Sources */,
+				DC61685F25309B5000462F49 /* AnnotationType.swift in Sources */,
+				87D3045526134934005BA6AA /* ImageProvider.swift in Sources */,
+				8758666F2786E9470036EF4E /* FinanceChartWidthChangedEvent.swift in Sources */,
+				8701AE8826C5822700D0AC66 /* FinanceZoomPanModifier.swift in Sources */,
+				870C36362625C49300848E3E /* IEditableProperty.swift in Sources */,
+				DC9C04D42535D2C00071A756 /* AnnotationCoordinateItem.swift in Sources */,
+				87EFEFCD27902E050023F212 /* ADXStudy.swift in Sources */,
+				87A013F9277B26E6009E3B30 /* UIStackView+Extensions.swift in Sources */,
+				DCA9A6742539A02000C0E096 /* SciAnnotationCreationModifier.swift in Sources */,
+				DC9C04C2253599C30071A756 /* BoxAnnotation.swift in Sources */,
+				870C36212625B1A800848E3E /* AxisId.swift in Sources */,
+				87EFEFCB27902E050023F212 /* RSIStudy.swift in Sources */,
+				87EFEFC727902E050023F212 /* StochStudy.swift in Sources */,
+				87A6A3552657F1E200BF2AB1 /* FinanceYAxisDragModifier.swift in Sources */,
+				87F7DBD825BF4E56008B6916 /* UIImage+Extensions.swift in Sources */,
+				8779D258254859790026C369 /* DoubleEditableProperty.swift in Sources */,
+				DCFF9436252E0AB4006712C3 /* FinanceSeriesCollection.swift in Sources */,
+				DC9C04BC253599A60071A756 /* HorizontalLineAnnotation.swift in Sources */,
+				87E1DE122642DBA100BF3E2C /* TooltipBehaviour.swift in Sources */,
+				DCFF9424252E0AB4006712C3 /* DataManager.swift in Sources */,
+				87A74AAF2716F49F0053BAFA /* FinanceDateXAxis.swift in Sources */,
+				87ABF478277C5F540097E28F /* StudyTitlePressedEvent.swift in Sources */,
+				87B6C38F268348B200686DF6 /* IFinanceChartEvent.swift in Sources */,
+				DCFF943D252E0AB4006712C3 /* IOhlcValues.swift in Sources */,
+				87EFEFD027902E050023F212 /* HT_TrendlineStudy.swift in Sources */,
+				87E228EE2636DBF60041A978 /* StudyTooltipBase.swift in Sources */,
+				DCFF943C252E0AB4006712C3 /* ICandleDataProvider.swift in Sources */,
+				872B7E5F25F14616003F1076 /* Double+Extension.swift in Sources */,
+				87A013FB277B2773009E3B30 /* XRangeButton.swift in Sources */,
+				DCFF9438252E0AB4006712C3 /* FinanceSeriesBase.swift in Sources */,
+				87A013F2277B11E2009E3B30 /* ChartButton.swift in Sources */,
+				87C7A632262872B600084481 /* IPanePropertyContainer.swift in Sources */,
+				DCFF9430252E0AB4006712C3 /* FinanceSeriesPaletteProvider.swift in Sources */,
+				87EFEFD227902EB00023F212 /* LegendInstrumentModel.swift in Sources */,
+				87777A5F25DD769C004628A5 /* IGradientView.swift in Sources */,
+				9C76174A2643E8EE0006B6EC /* EditableProperty.swift in Sources */,
+				87EFEFBD27902D1B0023F212 /* StudyFactory.swift in Sources */,
+				8721C29326B96E60002FF8E4 /* Bundle+Extensions.swift in Sources */,
+				DCFF942F252E0AB4006712C3 /* LineFinanceSeries.swift in Sources */,
+				87777A4E25DD6EEF004628A5 /* UIColor+Extensions.swift in Sources */,
+				DCFF9437252E0AB4006712C3 /* XyFinanceSeriesBase.swift in Sources */,
+				DCFF942E252E0AB4006712C3 /* BandFinanceSeries.swift in Sources */,
+				870E52D626B2A1C600B51F4D /* SciChartLogoView.swift in Sources */,
+				87E1DE172642FB5C00BF3E2C /* AxisTooltipBehaviour.swift in Sources */,
+				875916A426C6849A00469FF3 /* FinanceChartReloadChartEvent.swift in Sources */,
+				87E229012636E5650041A978 /* StudyLegend.swift in Sources */,
+				DCA411CC254315EF002E4A3D /* AnnotationCoordinates.swift in Sources */,
+				878A648325DBB37E00DB314E /* InstrumentPriceLabel.swift in Sources */,
+				DC9C04C5253599D30071A756 /* TextAnnotation.swift in Sources */,
+				87CDA9232614E85300F7C0B5 /* StudyId.swift in Sources */,
+				871DC7F527860AA900497C38 /* FinanceChartAnimateRangeEvent.swift in Sources */,
+				DC9C04B92535998E0071A756 /* FinanceAnnotationBase.swift in Sources */,
+				87A6A35926580CBC00BF2AB1 /* MainPane.swift in Sources */,
+				DC9C04B0253599490071A756 /* AnnotationActionType.swift in Sources */,
+				870C98DB26F32C15008628D7 /* IStudyEventListener.swift in Sources */,
+				87050C9626246782006DE575 /* FinanceString.swift in Sources */,
+				87A6A34F2657E9BB00BF2AB1 /* ExpandButton.swift in Sources */,
+				DCE207E52541C02000102C6D /* BrushStyleEditableProperty.swift in Sources */,
+				87EFEFC027902DBD0023F212 /* PriceSeriesStudyState.swift in Sources */,
+				87EFEFC427902E050023F212 /* OBVStudy.swift in Sources */,
+				DCA9A66925398D4D00C0E096 /* SciFinanceChart.swift in Sources */,
+				DC9C04B6253599800071A756 /* IFinanceAnnotation.swift in Sources */,
+				87EFEFB827902C890023F212 /* IndicatorStudyState.swift in Sources */,
+				DCFF9435252E0AB4006712C3 /* IFinanceSeries.swift in Sources */,
+				87E1DE102642DB8D00BF3E2C /* ShiftCrosshairHelper.swift in Sources */,
+				87E228EB2636D0E50041A978 /* LinearStudyTooltipBase.swift in Sources */,
+				DCA411AC2542D4DC002E4A3D /* ArrowHead.swift in Sources */,
+				87E1DE152642FB2300BF3E2C /* IGestureView.swift in Sources */,
+				873E32382721E3C600C2FD43 /* DataPointWidthEditableProperty.swift in Sources */,
+				DCFF9432252E0AB4006712C3 /* XyyFinanceSeriesBase.swift in Sources */,
+				DCFF943E252E0AB4006712C3 /* DefaultCandleDataProvider.swift in Sources */,
+				DC2403BE25362C7500C531B4 /* AnnotationDragListener.swift in Sources */,
+				8721C29126B96CCD002FF8E4 /* UIFont+Extensions.swift in Sources */,
+				870ED7472546F942007005D1 /* IntEditableProperty.swift in Sources */,
+				873E32362721E0FD00C2FD43 /* PositiveDoubleEditableProperty.swift in Sources */,
+				871A852C26579B4500F028B6 /* IResizingView.swift in Sources */,
+				8729B4682757E58100C6F7DA /* PercentFormatter.swift in Sources */,
+				877F427A2784F53100EEAC80 /* UIView+Extensions.swift in Sources */,
+				87A6A35726580C0E00BF2AB1 /* YAutoRangeButton.swift in Sources */,
+				870C36292625B55000848E3E /* FinanceAxisCollection.swift in Sources */,
+				87CDA9262614E8C200F7C0B5 /* DataManagerAttachable.swift in Sources */,
+				DCFF9442252E0AB4006712C3 /* IndicatorBase.swift in Sources */,
+				DCFF9444252E0AB4006712C3 /* IOhlcIndicator.swift in Sources */,
+				87EFEFCE27902E050023F212 /* PriceSeriesStudy.swift in Sources */,
+				87777A3B25DD5F50004628A5 /* GradientButton.swift in Sources */,
+				87E228E72636D0A20041A978 /* IStudyTooltip.swift in Sources */,
+				873E32342721E0D900C2FD43 /* PeriodEditableProperty.swift in Sources */,
+				87D22DCC275A45CB00AE3BB6 /* InstrumentPriceFormatChangedEvent.swift in Sources */,
+				DCA9A6752539A02000C0E096 /* SciTapDownGesture.swift in Sources */,
+				87A6A35B265817F100BF2AB1 /* IChartContainer.swift in Sources */,
+				87E1DE0C2642DB5800BF3E2C /* CrosshairModifier.swift in Sources */,
+				87060437254C95480050174F /* StringEditableProperty.swift in Sources */,
+				DCFF9440252E0AB4006712C3 /* IIndicator.swift in Sources */,
+				87E228F82636E4670041A978 /* DefaultPane.swift in Sources */,
+				870A6B30254B63BE00BDC526 /* CoordinatesEditableProperty.swift in Sources */,
+				87EFEFC327902E050023F212 /* ATRStudy.swift in Sources */,
+				87CDA91C2614DACE00F7C0B5 /* DataSourceChangedArgs.swift in Sources */,
+				87EFEFC227902E050023F212 /* SARStudy.swift in Sources */,
+				87EFEFBE27902D1B0023F212 /* IStudyFactory.swift in Sources */,
+				87E1DE1C2642FD1500BF3E2C /* FinanceAxisTooltipBase.swift in Sources */,
+				870C98DD26F32C41008628D7 /* IStudyEvent.swift in Sources */,
+				87EFEFBA27902CC30023F212 /* Indicator.swift in Sources */,
+				87E2290D2636F0700041A978 /* IPaneFactory.swift in Sources */,
+				87EFEFCF27902E050023F212 /* SMAStudy.swift in Sources */,
+				879A557F2791C44800DAE3AA /* IEditablePropertyContainer.swift in Sources */,
+				870ED74A2546F9F5007005D1 /* PenStyleEditableProperty.swift in Sources */,
+				879A557D2791BF9C00DAE3AA /* PropertyState.swift in Sources */,
+				87DDBCC625F961B9005A1FCC /* Constants.swift in Sources */,
+				873364FB276F5F7700455A86 /* FinanceChartState.swift in Sources */,
+				8729B4672757E58100C6F7DA /* PriceFormatter.swift in Sources */,
+				870A3CA32796B9ED00374AC3 /* FinanceChartStateChangedEvent.swift in Sources */,
+				DCFF942D252E0AB4006712C3 /* CandlestickFinanceSeries.swift in Sources */,
+				87EFEFC527902E050023F212 /* HorizontalLineSeriesValueMarkerFactory.swift in Sources */,
+				DCFF9429252E0AB4006712C3 /* StudyBase.swift in Sources */,
+				875BE73C263C47730070E475 /* FinancePinchZoomModifier.swift in Sources */,
+				8749858F264D50FC00971592 /* TA_MAType_EditableProperty.swift in Sources */,
+				870C362C2625B57E00848E3E /* FinanceYAxisBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C41D76B2785DECC00DF4C13 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = TestFlight;
+		};
+		9C41D76C2785DECC00DF4C13 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4RZQG425FX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Finance/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scichart.finance;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = TestFlight;
+		};
+		DCFF9382252E099C006712C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCFF9383252E099C006712C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCFF9385252E099C006712C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4RZQG425FX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Finance/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scichart.finance;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DCFF9386252E099C006712C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4RZQG425FX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Finance/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scichart.finance;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFF9376252E099C006712C3 /* Build configuration list for PBXProject "Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFF9382252E099C006712C3 /* Debug */,
+				DCFF9383252E099C006712C3 /* Release */,
+				9C41D76B2785DECC00DF4C13 /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFF9384252E099C006712C3 /* Build configuration list for PBXNativeTarget "Finance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFF9385252E099C006712C3 /* Debug */,
+				DCFF9386252E099C006712C3 /* Release */,
+				9C41D76C2785DECC00DF4C13 /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8778929527396964006289A2 /* XCRemoteSwiftPackageReference "SciChart-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ABTSoftware/SciChart-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		87B9F88C263BE020006E35F1 /* XCRemoteSwiftPackageReference "CCTALib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ABTSoftware/CCTALib";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		876F5B2A27859BAC00FDD387 /* SciChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8778929527396964006289A2 /* XCRemoteSwiftPackageReference "SciChart-SP" */;
+			productName = SciChart;
+		};
+		87B9F88D263BE020006E35F1 /* SwiftCCTALib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B9F88C263BE020006E35F1 /* XCRemoteSwiftPackageReference "CCTALib" */;
+			productName = SwiftCCTALib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DCFF9373252E099C006712C3 /* Project object */;
+}

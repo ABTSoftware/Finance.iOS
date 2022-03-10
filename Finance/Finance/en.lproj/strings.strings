@@ -1,0 +1,111 @@
+/* 
+ strings.strings
+ Finance
+ 
+ Created by Andriy Pohorilko on 12.04.2021.
+ 
+ */
+
+    //<!-- OHLCV values IDs -->
+"xValuesId" = "Values";
+"openValuesId" = "OpenValues";
+"highValuesId" = "HighValues";
+"lowValuesId" = "LowValues";
+"closeValuesId" = "CloseValues";
+"volumeValuesId" = "VolumeValues";
+
+    //<!-- Indicator values IDs -->
+"rsiId" = "RSI";
+"smaId" = "SMA";
+
+"macdId" = "MACD";
+"macdHistogramId" = "MACD Histogram";
+"macdSignalId" = "MACD Signal";
+
+"bollingerBandsBandId" = "BBandsBand";
+"bollingerBandsMidId" = "BBandsMid";
+
+    //<!-- Indicator Names -->
+"macdIndicatorName" = "MACD";
+"rsiIndicatorName" = "RSI";
+"smaIndicatorName" = "SMA";
+"bollingerBandsIndicatorName" = "BBands";
+"trendlineIndicatorName" = "Trendline";
+"standardDeviationIndicatorName" = "Standard Deviation";
+"emaIndicatorName" = "EMA";
+"stochasticIndicatorName" = "Stochastic";
+
+    //<!-- Property Names -->
+"financeSeriesOpacity" = "Opacity";
+
+"strokeStyle" = "Stroke";
+"fillStyle" = "Fill";
+"arrowHeadStyle" = "Arrow head";
+"fontStyle" = "Font";
+"textStyle" = "Text";
+"lineAnnotation" = "Line";
+"boxAnnotation" = "Box";
+"arrowAnnotation" = "Arrow";
+"textAnnotation" = "Text";
+"coordinates" = "Coordinates";
+
+
+
+"bandsY1StrokeStyle" = "Y1 Stroke";
+"bandsY1FillStyle" = "Y1 Fill";
+
+"candlestickStrokeUpStyle" = "Stroke Up";
+"candlestickStrokeDownStyle" = "Stroke Down";
+"candlestickFillUpStyle" = "Fill Up";
+"candlestickFillDownStyle" = "Fill Down";
+"candlestickDataPointWidth" = "Data Point Width";
+
+"xValues" = "X Values";
+"yValues" = "Y Values";
+"y1Values" = "Y1 Values";
+"openValues" = "Open Values";
+"highValues" = "High Values";
+"lowValues" = "Low Values";
+"closeValues" = "Close Values";
+
+"indicatorSingleInput" = "Input";
+"indicatorHighInput" = "Input High";
+"indicatorLowInput" = "Input Low";
+"indicatorCloseInput" = "Input Close";
+
+"indicatorSmaPeriod" = "Period";
+"indicatorRsiPeriod" = "Period";
+"indicatorMacdSlow" = "Slow";
+"indicatorMacdFast" = "Fast";
+"indicatorMacdSignal" = "Signal";
+"indicatorBollingerBandsPeriod" = "Period";
+"indicatorBollingerBandsDev" = "Dev";
+"indicatorBollingerBandsMAType" = "MA Type";
+"indicatorStandardDeviationPeriod" = "Period";
+"indicatorStandardDeviationDev" = "Dev";
+"indicatorEMAPeriod" = "Period";
+"indicatorStochasticFastK" = "Fast K";
+"indicatorStochasticSlowK" = "Slow K";
+"indicatorStochasticSlowD" = "Slow D";
+"indicatorStochasticSlowK_MAType" = "Slow K MAType";
+"indicatorStochasticSlowD_MAType" = "Slow D MAType";
+
+"indicatorNameSma" = "SMA / Simple Moving Average";
+"indicatorNameTrendline" = "HT_TRENDLINE / Hilbert Transform - Instantaneous Trendline";
+"indicatorNameSdtdev" = "STDDEV / Standard Deviation";
+"indicatorNameBbands" = "BBANDS / Bollinger Bands";
+"indicatorNameRsi" = "RSI / Relative Strength Index";
+"indicatorNameEma" = "EMA / Exponential Moving Average";
+"indicatorNameStoch" = "STOCH / Stochastic";
+"indicatorNameMacd" = "MACD / Moving Average Convergence/Divergence";
+"indicatorNameAdx" = "ADX / Average Directional Movement Index";
+"indicatorNameSar" = "SAR / Parabolic SAR";
+"indicatorNameCci" = "CCI / Commodity Channel Index";
+"indicatorNameAtr" = "ATR / Average True Range";
+"indicatorNameObv" = "OBV / On Balance Volume";
+
+
+
+
+"defaultYAxis" = "YAxis";
+"textFormattingAxis" = "Text Formatting";
