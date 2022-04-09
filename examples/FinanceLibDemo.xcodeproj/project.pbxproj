@@ -11,30 +11,11 @@
 		8783FD312714BBD400C3DD6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783FD302714BBD400C3DD6F /* ContentView.swift */; };
 		8783FD332714BBD500C3DD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8783FD322714BBD500C3DD6F /* Assets.xcassets */; };
 		8783FD362714BBD500C3DD6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8783FD352714BBD500C3DD6F /* Preview Assets.xcassets */; };
-		8783FD602714BC2600C3DD6F /* SciChart in Frameworks */ = {isa = PBXBuildFile; productRef = 8783FD5F2714BC2600C3DD6F /* SciChart */; };
 		8783FD6C2714BCCF00C3DD6F /* FinanceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783FD6B2714BCCF00C3DD6F /* FinanceChartView.swift */; };
 		8783FD742714CF0900C3DD6F /* Candlestick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783FD732714CF0900C3DD6F /* Candlestick.swift */; };
 		8783FD762714CF2300C3DD6F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783FD752714CF2300C3DD6F /* DataManager.swift */; };
-		9CEE9A1427C54C5C004C9D30 /* Finance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEE9A1127C54BFA004C9D30 /* Finance.framework */; platformFilter = ios; };
-		9CEE9A1527C54C5C004C9D30 /* Finance.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEE9A1127C54BFA004C9D30 /* Finance.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9CC575702801E22000B174FD /* Finance in Frameworks */ = {isa = PBXBuildFile; productRef = 9CC5756F2801E22000B174FD /* Finance */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9CEE9A1027C54BFA004C9D30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87EA660727B1513E006DF001 /* Finance.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCFF937C252E099C006712C3;
-			remoteInfo = Finance;
-		};
-		9CEE9A1227C54C51004C9D30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87EA660727B1513E006DF001 /* Finance.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = DCFF937B252E099C006712C3;
-			remoteInfo = Finance;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8783FD6A2714BCA000C3DD6F /* Embed Frameworks */ = {
@@ -43,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9CEE9A1527C54C5C004C9D30 /* Finance.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +39,7 @@
 		8783FD6B2714BCCF00C3DD6F /* FinanceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceChartView.swift; sourceTree = "<group>"; };
 		8783FD732714CF0900C3DD6F /* Candlestick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candlestick.swift; sourceTree = "<group>"; };
 		8783FD752714CF2300C3DD6F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		87EA660727B1513E006DF001 /* Finance.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Finance.xcodeproj; path = ../Finance/Finance.xcodeproj; sourceTree = "<group>"; };
+		9C28B72A2801E1C80056E7C5 /* Finance */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Finance; path = ../Finance; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8783FD602714BC2600C3DD6F /* SciChart in Frameworks */,
-				9CEE9A1427C54C5C004C9D30 /* Finance.framework in Frameworks */,
+				9CC575702801E22000B174FD /* Finance in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +57,9 @@
 		8783FD222714BBD400C3DD6F = {
 			isa = PBXGroup;
 			children = (
-				87EA660727B1513E006DF001 /* Finance.xcodeproj */,
+				9C28B72A2801E1C80056E7C5 /* Finance */,
 				8783FD2D2714BBD400C3DD6F /* FinanceLibDemo */,
 				8783FD2C2714BBD400C3DD6F /* Products */,
-				8783FD672714BCA000C3DD6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,13 +92,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8783FD672714BCA000C3DD6F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8783FD722714CEF300C3DD6F /* Candlesticks */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,14 +99,6 @@
 				8783FD752714CF2300C3DD6F /* DataManager.swift */,
 			);
 			path = Candlesticks;
-			sourceTree = "<group>";
-		};
-		9CEE9A0D27C54BF9004C9D30 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9CEE9A1127C54BFA004C9D30 /* Finance.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,11 +116,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				9CEE9A1327C54C51004C9D30 /* PBXTargetDependency */,
 			);
 			name = FinanceLibDemo;
 			packageProductDependencies = (
-				8783FD5F2714BC2600C3DD6F /* SciChart */,
+				9CC5756F2801E22000B174FD /* Finance */,
 			);
 			productName = FinanceLibDemo;
 			productReference = 8783FD2B2714BBD400C3DD6F /* FinanceLibDemo.app */;
@@ -192,28 +154,12 @@
 			);
 			productRefGroup = 8783FD2C2714BBD400C3DD6F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 9CEE9A0D27C54BF9004C9D30 /* Products */;
-					ProjectRef = 87EA660727B1513E006DF001 /* Finance.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8783FD2A2714BBD400C3DD6F /* FinanceLibDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		9CEE9A1127C54BFA004C9D30 /* Finance.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Finance.framework;
-			remoteRef = 9CEE9A1027C54BFA004C9D30 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8783FD292714BBD400C3DD6F /* Resources */ = {
@@ -241,14 +187,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9CEE9A1327C54C51004C9D30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Finance;
-			targetProxy = 9CEE9A1227C54C51004C9D30 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8783FD4D2714BBD500C3DD6F /* Debug */ = {
@@ -456,16 +394,15 @@
 			repositoryURL = "https://github.com/ABTSoftware/SciChart-SP";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
+				minimumVersion = 4.4.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8783FD5F2714BC2600C3DD6F /* SciChart */ = {
+		9CC5756F2801E22000B174FD /* Finance */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8783FD5E2714BC2600C3DD6F /* XCRemoteSwiftPackageReference "SciChart-SP" */;
-			productName = SciChart;
+			productName = Finance;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
