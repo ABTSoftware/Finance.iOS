@@ -20,9 +20,10 @@
 import UIKit
 
 extension UIImage {
-    static let Expand = UIImage(named: "expand", from: .finance ?? .main)
-    static let Collapse = UIImage(named: "collapse", from: .finance ?? .main)
-    static let YAutoRange = UIImage(named: "yRange", from: .finance ?? .main)
-    static let XRange = UIImage(named: "xRange", from: .finance ?? .main)
-        
+    static let Expand = UIImage(named: "expand", from: Bundle.module)
+    static let Collapse = UIImage(named: "collapse", from: Bundle.module)
+    static let YAutoRange = UIImage(named: "yRange", from: Bundle.module)
+    static let XRange = UIImage(named: "xRange", from: Bundle.module)
+    static let SciChartLogo = UIImage(named: "scichart_logo", from: Bundle.module)
+    static let ResizeArrows = UIImage(named: "resize_arrows", from: Bundle.module)
 }

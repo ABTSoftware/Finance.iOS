@@ -132,7 +132,7 @@ extension IResizingView {
         let gradient = GradientView()
         gradient.configureGradientLayer(colors: [UIColor.mainButtonStart, UIColor.mainButtonEnd])
         
-        let resizeArrowsView = UIImageView(image: ImageProvider.resizeArrows)
+        let resizeArrowsView = UIImageView(image: UIImage.ResizeArrows)
         resizeArrowsView.translatesAutoresizingMaskIntoConstraints = false
         gradient.addSubview(resizeArrowsView)
         

@@ -63,11 +63,7 @@ public class SciChartLogoView: UIView {
     
     private lazy var mainStackView: UIStackView = {
         let logoButton = UIButton()
-        
-        if let bundle = Bundle.finance {
-            logoButton.setImage(UIImage(named: "scichart_logo", from: bundle), for: .normal)
-        }
-        
+        logoButton.setImage(UIImage.SciChartLogo, for: .normal)
         logoButton.addTarget(self, action: #selector(onTap))
         
         let stackView = UIStackView(arrangedSubviews: [
@@ -127,7 +123,7 @@ public class SciChartLogoView: UIView {
         init(text: String, size: CGFloat) {
             super.init(frame: .zero)
             
-            UIFont.registerFont(name: UIFont.neuropolFontName, bundle: .finance)
+            UIFont.registerFont(name: UIFont.neuropolFontName, bundle: Bundle.module)
             
             self.text = text
             self.font = .neuropol(size: size)
