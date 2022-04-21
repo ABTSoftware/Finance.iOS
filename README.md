@@ -299,3 +299,12 @@ That's it. The rest is handled by the SciChart library and finally, our nice blu
 > **_NOTE_:** Most likely, you'd want to display some real-time data, coming from the WebSocket. To see it in action, please try our [**SciTrader**](https://www.scitrader.io) [iOS](https://apps.apple.com/gb/app/scitrader/id1584140348) and [Android](https://play.google.com/store/apps/details?id=com.scitrader) app.
 
 ![SciTrader Real-Time](https://user-images.githubusercontent.com/18321399/163138440-1af6635d-8df2-4eee-aae2-2f996ec4dbba.gif)
+
+## License
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License. You may obtain a copy of the License at [LICENSE](LICENSE) file or 
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+This license requires specifying SciChart as the product creator. You shall add the "attribution notice" from the NOTICE file and a link to https://www.scichart.com/ to the page of your website or mobile application that is available to your users. As thanks for creating this product, we'd be grateful if you add it in a prominent place.
